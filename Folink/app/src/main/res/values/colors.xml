@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ripple_dark">#fff</color>
+    <color name="dark_icon_half_alpha">#50000000</color>
+    <color name="dark_icon">#99000000</color>
+    <color name="text_color">#ffffff</color>
+    <color name="text_source">#59ffffff</color>
+    <color name="mid_grey">#40808080</color>
+    <color name="divider">#ffffff</color>
+    <color name="settings_text_color">#2980b9</color>
+    <color name="white">#fff</color>
+    <color name="divider_grey">#eeeeee</color>
+    <color name="gray_dark">#333333</color>
+</resources>

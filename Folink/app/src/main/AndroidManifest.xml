@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jcoder.app.folink">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23"/>
+
+    <application
+        android:name=".FolinkApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activity.FolinkGuide"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.FullScreen"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.FolinkHome">
+
+        </activity>
+        <activity android:name=".activity.FolinkAboutActivity">
+
+        </activity>
+        <activity android:name=".activity.FolinkSettings">
+        </activity>
+        <activity android:name=".activity.FolinkWebActivity">
+        </activity>
+    </application>
+
+</manifest>
